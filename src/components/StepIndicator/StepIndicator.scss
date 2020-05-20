@@ -1,0 +1,39 @@
+.step-indicator {
+    display: flex;
+    align-items: center;
+    .step {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        z-index: 1;
+        &.active .step-icon {
+            background: #DA3F5B;
+        }
+    }
+    .step-icon {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background: #1E34A5;
+        font-size: 18px;
+        text-align: center;
+        color: #ffffff;
+        position: relative;
+        line-height: 30px;
+    }
+    .indicator-line {
+        background: #E8E8E8;
+        opacity: 0.2;
+        border-radius: 8px;
+        margin: 0 8px;
+        height: 2px;
+        flex: 1;
+    }
+}
+  
+
+  
+  
+  
+

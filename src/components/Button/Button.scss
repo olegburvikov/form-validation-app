@@ -1,0 +1,22 @@
+.button {
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    opacity: none;
+    transition: .3s;
+}
+.btn-primary {
+    background-color: #DA3F5B;
+    color: #FFFFFF;
+    &:hover {
+        background-color: darken($color: #DA3F5B, $amount: 10);
+    }
+}
+.btn-small {
+    font-size: 16px;
+    padding: 16px;
+    min-width: 144px;
+}

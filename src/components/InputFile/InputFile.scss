@@ -1,0 +1,43 @@
+.inputfile-item-wrapper input[type="file"] {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile-item-wrapper input[type="file"] + .inputfile {
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0.65015px solid #33333320;
+    padding: 17px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: border-color .2s;
+    &:hover {
+        border-color: #333333;
+    }
+}
+.inputfile {
+    font-size: 14px;
+    &-left-wrapper {
+        display: flex;
+        align-items: center;
+    }
+    &__text {
+        color: #333333;
+        padding-left: 16px;
+    }
+    &__files-counter {
+        color: #A7A7A7;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .inputfile {
+        text-align: center;
+    }
+}
+

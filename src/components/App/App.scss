@@ -1,0 +1,26 @@
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+.app {
+  padding: 60px 15px 10px;
+  font-family: 'Open Sans', sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(233.1deg, #216190 19.65%, #0834D0 81.25%);
+}
+
+.step-indicator-wrapper {
+  max-width: 492px;
+  margin: auto;
+}
+
+@media screen and (max-width: 576px) {
+  .app {
+    padding: 30px 15px 10px;
+  }
+  .step-indicator-wrapper {
+    padding: 0 15px;
+  }
+}
