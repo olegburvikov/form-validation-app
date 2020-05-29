@@ -1,5 +1,5 @@
-This project was created with [Create React App](https://github.com/facebook/create-react-app).
-
+In this project i wrote custom form validation.<br />
+In devtools console you can check submit`s results.<br />
 Demo - http://burvikov-form-validation.surge.sh/
 
 ## Available Scripts
